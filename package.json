@@ -13,7 +13,6 @@
   "devDependencies": {
     "@babel/core": "^7.20.12",
     "@babel/preset-env": "^7.20.2",
-    "@babel/preset-react": "^7.18.6",
     "@hookstate/core": "^3.0.13",
     "array-move": "^4.0.0",
     "axios": "^1.1.3",

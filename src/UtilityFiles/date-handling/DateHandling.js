@@ -1,3 +1,4 @@
+// can be used for handling date types 
 import moment from 'moment';
 import { isStringValue } from '../data-handling/DataHandling';
 
@@ -9,4 +10,36 @@ export const getDateFormat = (data) => {
     } else {
         return '';
     }
+};
+
+export const addMonthToDate = (date, month) => {
+    return moment(date).add(month, 'months').toDate();
+};
+
+export const removeMonthFromDate = (date, month) => {
+    return moment(date).subtract(month, 'months').toDate();
+};
+
+export const addDaysToDate = (date, numOfDays) => {
+    return moment(date).add(numOfDays, 'd').toDate();
+};
+
+export const removeDaysToFromDate = (date, numOfDays) => {
+    return moment(date).subtract(numOfDays, 'd').toDate();
+};
+
+export const addMinutesToDate = (date, minutes) => {
+    return moment(date).add(minutes, 'minutes').toDate();
+};
+
+export const removeMinutesFromDate = (date, minutes) => {
+    return moment(date).subtract(minutes, 'minutes').toDate();
+};
+
+export const addYearsToDate = (d, years) => {
+    return moment(d).add(years, 'year').toDate();
+};
+
+export const removeYearsFromDate = (d, years) => {
+    return moment(d).subtract(years, 'year').toDate();
 };

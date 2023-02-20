@@ -1,0 +1,17 @@
+========================================================================
+api's can be used as below 
+========================================================================
+const getDataList = async () => {
+    // add variables if required in request
+    let request = getRequestForApi(API_URL, variables, API_METHOD_TYPE);
+    await callHttpRequest(request).then(response => {
+        if (response?.status === 201) {
+            // ADD YOUR LOGIC HERE
+        }
+    }).catch((err) => {
+        setPending(false);
+        console.log('err', err)
+    });
+};
+===========================================================================
+===========================================================================

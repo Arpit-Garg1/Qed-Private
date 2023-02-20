@@ -1,3 +1,6 @@
+//can be used for api callings.
+//demo code in info.txt
+
 import { methodType } from "./HttpRequest";
 
 let config = {

@@ -1,0 +1,251 @@
+.error {
+  font-size: 30px;
+  font-weight: 700;
+  margin: 85px;
+}
+
+.error-btn {
+  cursor: pointer;
+}
+
+.disableButton{
+  pointer-events: none;
+  opacity: .6;
+}
+
+.radio-button{
+  Display:flex;
+/* Justify content:space-between; */
+}
+
+.showAlert{
+  display: block;
+  z-index: 99;
+}
+
+.radiobtn{
+  display: flex;
+  margin-top: auto;
+  color: #525151;
+  gap: 12px;
+}
+
+.bulk{
+  margin-left: 90px;
+}
+
+.field select, .field input:not([type="radio"]), .field textarea{
+  font-size: 15px;
+  color: #525151;
+}
+
+.field input[type='checkbox']{
+  display: initial;
+  width: 13px;
+  height: 13px;
+  padding: 0;
+  margin:0;
+  vertical-align: bottom;
+  position: relative;
+  top: -1px;
+  *overflow: hidden;
+}
+
+.imageList{
+  overflow-x:scroll;
+}
+
+.warninig{
+  color: red;
+  margin: 5px;
+}
+
+.text-Color{
+  color: #0284fe;
+  margin: 5px;
+}
+
+.btnBlue{
+  background: #0284fe;
+  color: #f9f9fa;
+}
+
+.btnGrey{
+  background: #808080;
+  color: #f9f9fa;
+}
+
+.btnBlue:hover, .btnBlue:hover{
+  background: #0d1d2b;
+}
+
+.btnGrey:hover, .btnGrey:hover{
+  background: #0d1d2b;
+}
+
+.content-width{
+  max-width: 450px;
+}
+
+.btn-width{
+  margin-top: 0px;
+  margin-right: 45px;
+}
+
+.modal-text{
+  font-size: 20px;
+}
+
+.modal-alert-message{
+  font-size: 15px;
+  color: #505050;
+}
+
+.categoryHeading{
+  font-size: 15px;
+}
+
+.info{
+  border: 1px solid;
+  padding: 0px 7px;
+  border-radius: 50%;
+  font-size: 12px;
+  background: #ff8d00;
+  color: white;
+}
+
+.loader-Img{
+  width: 100%;
+  height: 125px;
+}
+.fieldset{
+  border: none !important;
+  padding: 0% !important;
+}
+
+.testFlex{
+  display: flex;
+  flex: 4;
+  justify-content: center;
+
+}
+.testFlexBox{
+  flex: 1;
+  justify-content: center;
+}
+.verticlaCentr{
+  vertical-align: middle !important;
+}
+
+
+.slick-slider .slick-prev{
+  font-size: 28px !important;
+  line-height: 0 !important;
+  position: absolute !important;
+  top: 50% !important;
+  display: block !important;
+  width: 20px !important;
+  height: 20px !important;
+  padding: 0 !important;
+  transform: translate(0, -50%) !important;
+  cursor: pointer !important;
+  border: none !important;
+  outline: none !important;
+  background: transparent !important;
+  color: black;
+}
+.slick-slider .slick-next {
+  font-size: 28px !important;
+  line-height: 0 !important;
+  position: absolute !important;
+  top: 50% !important;
+  display: block !important;
+  width: 20px !important;
+  height: 20px !important;
+  padding: 0 !important;
+  transform: translate(0, -50%) !important;
+  cursor: pointer !important;
+  border: none !important;
+  outline: none !important;
+  background: transparent !important;
+  color: black;
+  z-index: 12 !important;
+}
+.slick-next :hover {
+  color: black;
+}
+.slick-prev :hover {
+  color: black;
+}
+.profile-img{
+  width: 40px;
+}
+
+.sidenav-img{
+  border-radius: 50%;
+    max-height: 70px;
+}
+
+
+
+html .slick-slider.sliderNav img {
+  display: block !important;
+  height: auto;
+  width: 100%;
+  object-fit: cover;
+}
+html .slick-slider img {
+  height: auto;
+}
+
+html .slick-slider.sliderNav  .slick-slide {
+  padding: 10px 5px 0;
+}
+html .slick-slider .slick-next, .slick-slider .slick-prev {
+  font-size: 0 !important;
+  background: #f0f0f0 !important;
+  width: 24px !important;
+  height: 24px !important;
+}
+
+html  .slick-next:before {
+  content: "\203A";
+  font-size: 24px !important;
+  color: #000;
+  line-height: 4px !important;
+}
+
+html .slick-prev:before {
+  content: "\2039";
+  font-size: 24px !important;
+  color: #000 !important;
+  line-height: 1;
+  line-height: 4px !important;
+}
+
+html .slick-track {
+  display: flex;
+  align-items: center;
+}
+
+html .slick-track .slick {
+  background: #f3f3f3;
+}
+
+.logged-in {
+  color: green;
+  font-size: 2.1em;
+  cursor: pointer;
+}
+
+.logged-out {
+  color: red;
+  font-size: 2.1em;
+  cursor: pointer;
+}
+
+.pending{
+  color: orange;
+  font-size: 2.1em;
+  cursor: pointer;
+}

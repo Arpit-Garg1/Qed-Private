@@ -1,0 +1,10 @@
+FROM node:16.15.0 as dist
+WORKDIR /app
+COPY package.json .
+RUN npm install
+COPY . .
+RUN npm run build
+
+FROM nginx
+EXPOSE 80
+COPY --from=dist app/dist /usr/share/nginx/html

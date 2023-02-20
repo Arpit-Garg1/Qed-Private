@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="23px" viewBox="0 0 16 23" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>Artboard</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Artboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round">
+        <g id="chevron-left-(2)" transform="translate(1.379871, 10.037835)" stroke="#9CA3AF" stroke-linejoin="round" stroke-width="2.5">
+            <polyline id="Path" points="5 10 0 5 5 0"></polyline>
+        </g>
+        <path d="M1.37987064,15.0378351 L14.5,15.0378351" id="Line" stroke="#9CA3AF" stroke-width="2.5" fill="#9CA3AF" fill-rule="nonzero"></path>
+    </g>
+</svg>

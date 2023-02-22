@@ -3,6 +3,16 @@ import moment from 'moment';
 import { isStringValue } from '../data-handling/DataHandling';
 
 export const GET_DISPLAY_DATE_FORMAT = 'DD-MMM-YYYY';
+export const GET_DISPLAY_TIME_FORMAT = 'LT';
+export const CURRENT_DATE = new Date();
+
+export const getCurrentDate = () => {
+    return moment(CURRENT_DATE).format(GET_DISPLAY_DATE_FORMAT);
+};
+
+export const getCurrentTime = () => {
+    return moment(CURRENT_DATE).format(GET_DISPLAY_TIME_FORMAT);
+};
 
 export const getDateFormat = (data) => {
     if (isStringValue(data)) {

@@ -29,3 +29,11 @@ export const isObjectValue = (value) => {
         return {};
     };
 };
+
+export const lowerCaseValue = (value) => {
+    return value.toLocaleLowerCase();
+};
+
+export const upperCaseValue = (value) => {
+    return value.toLocaleUpperCase();
+};
